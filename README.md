@@ -34,6 +34,10 @@ https://hub.docker.com/layers/aierohin/nginx/latest/images/sha256-a255fa03c08457
 https://github.com/aierohin/diplom_kubernetes
 
 ## 6. Ссылка на тестовое приложение и веб интерфейс Grafana с данными доступа.
+Приложение:  
 http://158.160.33.134:30001/
 
+Grafana:  
+http://158.160.33.134:31596
+Login - netology, password - netology.
 
