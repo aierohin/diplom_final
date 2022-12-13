@@ -12,6 +12,19 @@ https://github.com/aierohin/diplom_terraform
 
 ## 3. Репозиторий с конфигурацией ansible, если был выбран способ создания Kubernetes кластера при помощи ansible.
 https://github.com/aierohin/diplom_kubespray/tree/main
+```
+erohin@erohin-VirtualBox:~/diplom_netology/kubespray/inventory/diplom$ kubectl version 
+WARNING: This version information is deprecated and will be replaced with the output from kubectl version --short.  Use --output=yaml|json to get the full version.
+Client Version: version.Info{Major:"1", Minor:"25", GitVersion:"v1.25.4", GitCommit:"872a965c6c6526caa949f0c6ac028ef7aff3fb78", GitTreeState:"clean", BuildDate:"2022-11-09T13:36:36Z", GoVersion:"go1.19.3", Compiler:"gc", Platform:"linux/amd64"}
+Kustomize Version: v4.5.7
+Server Version: version.Info{Major:"1", Minor:"25", GitVersion:"v1.25.4", GitCommit:"872a965c6c6526caa949f0c6ac028ef7aff3fb78", GitTreeState:"clean", BuildDate:"2022-11-09T13:29:58Z", GoVersion:"go1.19.3", Compiler:"gc", Platform:"linux/amd64"}
+erohin@erohin-VirtualBox:~/diplom_netology/kubespray/inventory/diplom$ kubectl get nodes
+NAME          STATUS   ROLES           AGE   VERSION
+node-cp       Ready    control-plane   31m   v1.25.4
+node-work-1   Ready    <none>          29m   v1.25.4
+node-work-2   Ready    <none>          29m   v1.25.4
+erohin@erohin-VirtualBox:~/diplom_netology/kubespray/inventory/diplom$ 
+```
 
 ## 4. Репозиторий с Dockerfile тестового приложения и ссылка на собранный docker image.
 https://github.com/aierohin/diplom_nginx
@@ -21,3 +34,6 @@ https://hub.docker.com/layers/aierohin/nginx/latest/images/sha256-a255fa03c08457
 https://github.com/aierohin/diplom_kubernetes
 
 ## 6. Ссылка на тестовое приложение и веб интерфейс Grafana с данными доступа.
+http://158.160.33.134:30001/
+
+
