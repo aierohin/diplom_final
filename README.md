@@ -41,3 +41,7 @@ Grafana:
 http://158.160.33.134:31596
 Login - netology, password - netology.
 
+## Доступ к Jenkins
+http://51.250.88.172:8080  
+Логин - netology, пароль - netology.
+
