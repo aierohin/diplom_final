@@ -41,7 +41,20 @@ Grafana:
 http://158.160.33.134:31596
 Login - netology, password - netology.
 
-## Доступ к Jenkins
-http://51.250.88.172:8080  
-Логин - netology, пароль - netology.
+## 7. Описание CI/CD  
+Доступ к Jenkins  
+http://51.250.88.172:8080    
+Логин - netology, пароль - netology.  
+Конфиг Jenkins - https://github.com/aierohin/diplom_final/blob/main/Jenkins_config.xml  
+Конфиг job - https://github.com/aierohin/diplom_final/blob/main/Job_config.xml  
+
+В репозитории https://github.com/aierohin/diplom_nginx настроен webhook:  
+![2022-12-23_19-04-41](https://user-images.githubusercontent.com/88886716/209364898-53ede1de-0af0-46e8-8da0-7a83bd776866.png)
+Когда в репозитории происходит commit webhook триггерит джобу Jenkins:  
+![2022-12-23_19-07-57](https://user-images.githubusercontent.com/88886716/209365230-14ae6270-c223-447a-b7df-acde6092a4bb.png)
+В настройках джобы указан целевой репозиторий, поэтому будет срабатывать необходимая нам джоба:  
+![2022-12-23_19-09-51](https://user-images.githubusercontent.com/88886716/209365602-962b8f52-1f32-4481-bee0-81e003c61166.png)
+![2022-12-23_19-11-19](https://user-images.githubusercontent.com/88886716/209365618-2ae65cb5-1f15-49b1-8c65-a54fd036b8c4.png)
+Описание действий, которые будут выполняться, находятся в Jenkinsfile, который в том же репозитории https://github.com/aierohin/diplom_nginx/blob/main/Jenkinsfile  
+
 
