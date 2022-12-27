@@ -27,8 +27,8 @@ erohin@erohin-VirtualBox:~/diplom_netology/kubespray/inventory/diplom$
 ```
 
 ## 4. Репозиторий с Dockerfile тестового приложения и ссылка на собранный docker image.
-https://github.com/aierohin/diplom_nginx
-https://hub.docker.com/layers/aierohin/nginx/latest/images/sha256-a255fa03c084576ac5a02e98e16d0b44c5cb2aa23fbdd755b465f7a2eba98ea5?context=repo
+https://github.com/aierohin/diplom_nginx  
+https://hub.docker.com/layers/aierohin/nginx/latest/images/sha256-a255fa03c084576ac5a02e98e16d0b44c5cb2aa23fbdd755b465f7a2eba98ea5?context=repo  
 
 ## 5. Репозиторий с конфигурацией Kubernetes кластера.
 https://github.com/aierohin/diplom_kubernetes
